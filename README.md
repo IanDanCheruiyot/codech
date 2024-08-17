@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# week-code-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my weekly code challenge
 
-## Available Scripts
+#### Brief description of application, {18-Aug-2024}
 
-In the project directory, you can run:
+This repository contains the source code for a Bank Transactions web application built with React. The app provides users with a platform to view, add, filter, sort, and delete bank transactions, making it easy to manage financial records.
 
-### `npm start`
+#### By
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project was created and is sole property of Ian Dan Cheruiyot
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+This React application is designed to manage bank transactions. Users can view all transactions, add new ones, filter transactions by description, and delete unwanted transactions. The app is structured to be responsive and user-friendly, ensuring a smooth experience across different devices.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Display a table of all transactions with details like date, description, category, and amount.
+- Add new transactions through a simple form.
+- Filter transactions dynamically by typing into a search bar.
+- Sort transactions alphabetically by category or description.
+- Delete transactions from the list with a single click.
+- Responsive design for seamless use on all devices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup/Installation Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* One would need either linux or wsl for window users
+* Node.js (v12 or higher)
+* npm (v6 or higher)
+* A copy of visual studio code installed
+* A github account
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open your terminal and go to the directory you wish to work from.
+2. Go to the following url using ur github account git@github.com:IanDanCheruiyot/codech.git
+3. Go to the code tab and clone the ssh key
+4. Go back to the terminal and type git clone <-followed by the ssh key you copied /cloned ->
+5. Enter your new cloned repository and type in code .
+6. Now install the dependencies, on your terminal type npm install
+7. Start the JSON server by typing json-server --watch db.json --port 5000
+8. Open an new terminal on your visual studio code and type npm start
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**React**: a javaScript library for building user interfaces.
+**JSON Server**: for testing and prototyping.
+**CSS**: custom styles for user interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Support and contact details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any issues please email me at ian.cheruiyot1@student.moringaschool.com
